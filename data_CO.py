@@ -8,7 +8,7 @@ def csv_reader(file_obj):
 	"""
 	reader = csv.reader(file_obj)
 
-	for row in itertools.islice(reader,10):
+	for row in itertools.islice(reader,100):
 		print(row)
 
 		#row1 = row.split('\t');
